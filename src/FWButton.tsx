@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/ban-ts-comment */
 import * as React from 'react';
 import useFlutterwave from './useFW';
 import { FlutterwaveConfig, FlutterWaveResponse } from './types';
@@ -21,7 +20,6 @@ const FlutterWaveButton = ({
   disabled,
   ...config
 }: FlutterWaveButtonProps): JSX.Element => {
-  // @ts-ignore
   const handleFlutterwavePayment = useFlutterwave(config);
 
   return (

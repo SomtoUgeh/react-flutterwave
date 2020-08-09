@@ -77,8 +77,6 @@ export interface FlutterwaveConfig {
     currency?: FlutterWaveProps['currency'];
     customer: FlutterWaveProps['customer'];
     tx_ref: FlutterWaveProps['tx_ref'];
-    onClose: FlutterWaveProps['onclose'];
-    callback: FlutterWaveProps['callback'];
     customizations: FlutterWaveProps['customizations'];
     meta?: FlutterWaveProps['meta'];
     redirect_url: FlutterWaveProps['redirect_url'];
