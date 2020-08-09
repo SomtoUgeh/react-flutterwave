@@ -9,9 +9,9 @@ interface ScriptStatusInterface {
   error: boolean;
 }
 
-const src = 'https://connect.withmono.com/connect.js';
+const src = 'https://checkout.flutterwave.com/v3.js';
 
-export default function useMonoScript(): readonly [boolean, boolean] {
+export default function useFWScript(): readonly [boolean, boolean] {
   const [state, setState] = React.useState<ScriptStatusInterface>({
     loaded: false,
     error: false,

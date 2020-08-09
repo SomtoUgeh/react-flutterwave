@@ -1,2 +1,2 @@
-export { default as useMono } from './useMono';
-export { default as MonoButton } from './MonoButton';
+export { default as useFlutterwave } from './useFW';
+export { default as FlutterWaveButton } from './FWButton';
