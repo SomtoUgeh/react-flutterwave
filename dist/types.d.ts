@@ -26,7 +26,7 @@ export interface FlutterWaveProps {
     /**
      * URL to redirect to when a transaction is completed. This is useful for 3DSecure payments so we can redirect your customer back to a custom page you want to show them.
      */
-    redirect_url: string;
+    redirect_url?: string;
     /**
      *  This is an object that can contains your customer details.
      * e.g {
@@ -73,13 +73,13 @@ export interface FlutterWaveProps {
 }
 export interface FlutterwaveConfig {
     public_key: FlutterWaveProps['public_key'];
+    tx_ref: FlutterWaveProps['tx_ref'];
     amount: FlutterWaveProps['amount'];
     currency?: FlutterWaveProps['currency'];
     customer: FlutterWaveProps['customer'];
-    tx_ref: FlutterWaveProps['tx_ref'];
     customizations: FlutterWaveProps['customizations'];
     meta?: FlutterWaveProps['meta'];
-    redirect_url: FlutterWaveProps['redirect_url'];
+    redirect_url?: FlutterWaveProps['redirect_url'];
     payment_plan?: FlutterWaveProps['payment_plan'];
     payment_options: FlutterWaveProps['payment_options'];
 }
