@@ -12,9 +12,6 @@ $ yarn add react-flutterwave
 
 ## Examples
 
-- Basic -
-  [CodeSandbox](https://codesandbox.io/s/react-flutterwave-example-05o1q?file=/package.json)
-
 ```javascript
 import React from 'react';
 import { useFlutterwave, FlutterWaveButton } from 'react-flutterwave';

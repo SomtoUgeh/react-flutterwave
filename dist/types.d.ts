@@ -37,7 +37,7 @@ export interface FlutterWaveProps {
      */
     customer: {
         email: string;
-        phone_number: string;
+        phonenumber: string;
         name: string;
     };
     /**

@@ -1,6 +1,6 @@
 {
   "name": "react-flutterwave",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This is a react package for implementing flutterwave collection gateway",
   "main": "dist/index.js",
   "repository": "https://github.com/SomtoUgeh/react-flutterwave.git",

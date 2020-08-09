@@ -1,5 +1,13 @@
 import { useState, useEffect, createElement } from 'react';
 
+/**
+ * Check out {@link https://developer.flutterwave.com/docs/flutterwave-standard} for more information.
+ */
+
+var types = /*#__PURE__*/Object.freeze({
+  __proto__: null
+});
+
 /*! *****************************************************************************
 Copyright (c) Microsoft Corporation.
 
@@ -121,4 +129,4 @@ var FlutterWaveButton = function (_a) {
     return (createElement("button", { disabled: disabled, className: className, onClick: function () { return handleFlutterwavePayment({ callback: callback, onClose: onClose }); } }, text || children));
 };
 
-export { FlutterWaveButton, useFlutterwave };
+export { FlutterWaveButton, types as FlutterWaveTypes, useFlutterwave };
